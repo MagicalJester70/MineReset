@@ -18,7 +18,7 @@ abstract class SubCommand{
     }
 
 
-    abstract public function execute(CommandSender $sender, string $commandLabel, array $args) : bool{;
+    abstract public function execute(CommandSender $sender, string $commandLabel, array $args) : bool;
 
     /**
      * @return MineReset
